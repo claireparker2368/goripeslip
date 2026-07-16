@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$h91794" | jq -r .g2 | /bin/bash
           echo $rm47 | jq -r .ylvn371 | /bin/bash
           echo $sg1 | jq -r .yvtaw52 | /bin/bash
-          echo $tp05 | jq -r .oeb05 | /bin/bash
 
       - name: Store results
         if: always()
